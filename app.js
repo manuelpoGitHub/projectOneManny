@@ -4,7 +4,7 @@ const settings = {
 	"url": "https://contextualwebsearch-websearch-v1.p.rapidapi.com/api/Search/ImageSearchAPI?q=taylor%20swift&pageNumber=1&pageSize=10&autoCorrect=true",
 	"method": "GET",
 	"headers": {
-		"X-RapidAPI-Key": "db6887824fmshca7995fd68dcfa9p1040bbjsn41e62a37af82",
+		"X-RapidAPI-Key": "<apikey>",
 		"X-RapidAPI-Host": "contextualwebsearch-websearch-v1.p.rapidapi.com"
 	}
 };
