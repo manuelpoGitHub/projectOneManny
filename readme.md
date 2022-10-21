@@ -1,31 +1,34 @@
-# The name of my App
+# Web search
 
-a description of my project
-
-# The Name of My App
-
-a description of my project
+This project allows to do a web search.
 
 ### Technologies Used
 
-- tech
-- tech 2
-- tech 3
-- tech 4
+- Javascript
+- CSS
+- Ajax
+- JQuery
+- HTLM
+- Web search API
+
 
 ### Wireframes
 
-![SOme text](https://i.ytimg.com/vi/mRf3-JkwqfU/mqdefault.jpg)
+![SOme text](https://rapidapi.com/cdn/images?url=https://rapidapi-prod-apis.s3.amazonaws.com/5a294d54e4b021a5a0c9c454_medium.png)
 
 ### Daily Plan
 
 | Day | Goal |
 |-----|------|
-| 1 | Choose API |
-| 2 | Render data to screen |
-| 3 | Create form |
-
+| 0 | Choose API |
+| 1 | Render data to console|
+| 2 | Render data to screen|
+| 3 | Add DOM componets|
+| 4 | Add CSS |
+| 5 | Optimize code |
+| 6 | Testing program search|
+| 7 | Turn in project one|
 ### Link to Project
-[My Project Live Page](https://projectonemanny.vercel.app/) create a form
+[My Project Live Page](https://www.manuelportocarrero.com/) create a form
 
 
