@@ -1,7 +1,7 @@
 # Web search
 
 This project allows to do a web search.
-
+https://rapidapi.com/contextualwebsearch/api/web-search/details
 ### Technologies Used
 
 - Javascript
