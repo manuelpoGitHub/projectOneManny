@@ -11,7 +11,7 @@ https://rapidapi.com/contextualwebsearch/api/web-search/details
 - HTLM
 - Web search API
 
-db6887824fmshca7995fd68dcfa9p1040bbjsn41e62a37af82
+
 ### Wireframes
 
 ![SOme text](./Image.png)
