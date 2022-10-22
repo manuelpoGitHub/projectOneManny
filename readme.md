@@ -11,11 +11,10 @@ https://rapidapi.com/contextualwebsearch/api/web-search/details
 - HTLM
 - Web search API
 
-
+db6887824fmshca7995fd68dcfa9p1040bbjsn41e62a37af82
 ### Wireframes
 
-![SOme text](https://rapidapi.com/cdn/images?url=https://rapidapi-prod-apis.s3.amazonaws.com/5a294d54e4b021a5a0c9c454_medium.png)
-
+![SOme text](./Image.png)
 ### Daily Plan
 
 | Day | Goal |
