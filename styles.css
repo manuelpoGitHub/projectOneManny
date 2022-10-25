@@ -1,9 +1,21 @@
 h1 {
   text-align: center;
+  background-color: aqua;
 }
 p {
   text-align: center;
+  background-color: lightgreen;
 }
 div {
   text-align: center;
+  background-color: rgb(120, 229, 41);
 }
+
+#photo {
+  background-image: url("projectOneManny.png");
+  background-color: #cccccc;
+  background-size: contain;
+  height: 1300px;
+  width: 1400px;
+  background-position: center;
+ }

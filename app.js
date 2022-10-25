@@ -1,11 +1,17 @@
+const $main = $("main");
+//
 const filteredBySearch = (searching) => {
+  //
   const URL =
     "https://contextualwebsearch-websearch-v1.p.rapidapi.com/api/search/NewsSearchAPI";
-
-  const API_KEY = ``
-  //"";
+  //
+  const API_KEY = `dbba48b67bmsh70f893694c968dbp146758jsn29d22a1e8afa`;
+  //"6bb341ebeemshb5fcd2f5c52376bp132a3ajsnf5c99d6e70ba";
+  //
   const QUERY = `?q=${searching}`;
+  //
   const PAGE_NUMBER = `&pageNumber=${1}`;
+  //
   const PAGE_SIZE = `&pageSize=${10}`;
 
   const OPTIONS = `&autoCorrect=true&fromPublishedDate=null&toPublishedDate=null`;
@@ -21,8 +27,8 @@ const filteredBySearch = (searching) => {
     },
   };
 
-  const $main = $("main");
-  //filter () =>
+  //Reference API
+  // https://rapidapi.com/contextualwebsearch/api/web-search
   const request = $.ajax(settings);
   const response = request
     .then((response) => {
@@ -43,9 +49,25 @@ const filteredBySearch = (searching) => {
         $div3.html(`<image src=${element.image.url}>`);
         $main.append($div3);
       });
-      console.log(response);
+      //console.log(response);
     })
 
     .catch((err) => console.log("ERROR =====>", err.responseJSON.message));
 };
-//filteredBySearch('taylor swift');
+
+const inputSubmit = $("input[type=submit]");
+
+const callback = (e) => {
+  e.preventDefault();
+  $main.empty();
+  let inputText = $("input[type=text]").val();
+  filteredBySearch(inputText);
+};
+
+inputSubmit.on("click", callback);
+
+//add css
+//
+
+
+// util functions
